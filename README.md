@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+Hosted Url Link:- ******************https://react-chat-app-jk2q.onrender.com*******************
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
