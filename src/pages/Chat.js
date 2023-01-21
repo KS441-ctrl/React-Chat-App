@@ -16,7 +16,7 @@ export default function Chat() {
   const bottomRef = useRef(null);
 
   //when selecting a contact,,that contact is assigned to currentToUser
-  const [currentToUser, setCurrentToUser] = useState("arun");
+  const [currentToUser, setCurrentToUser] = useState("ankush singla");
 
   //data from send message input is assigned into message state
   const [message, setMessage] = useState("");
@@ -30,7 +30,7 @@ export default function Chat() {
     const data = {
       time: Date.now(),
       message,
-      fromUser: "neeraj",
+      fromUser: "k sardar",
       toUser: currentToUser,
     };
 
@@ -74,25 +74,25 @@ export default function Chat() {
   //Contact list contains the contact peoples and their last messages
   const ContactList = [
     {
-      name: "arun",
-      lastmessage: findLastMessage("arun"),
+      name: "ankush singla",
+      lastmessage: findLastMessage("ankush singla"),
     },
 
     {
-      name: "anjali",
-      lastmessage: findLastMessage("anjali"),
+      name: "saundarya mathur",
+      lastmessage: findLastMessage("saundarya mathur"),
     },
     {
-      name: "archana",
-      lastmessage: findLastMessage("archana"),
+      name: "muskan sharma",
+      lastmessage: findLastMessage("muskan sharma"),
     },
     {
-      name: "happy",
-      lastmessage: findLastMessage("happy"),
+      name: "shivam dhingra",
+      lastmessage: findLastMessage("shivam dhingra"),
     },
     {
-      name: "adi",
-      lastmessage: findLastMessage("adi"),
+      name: "dhanush mukhi",
+      lastmessage: findLastMessage("dhanush mukhi"),
     },
   ];
 
