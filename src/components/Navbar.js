@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import NeerajProfilePic from "../images/NeerajProfilePic.jpg";
+import  sardarProfilePic  from "../../src/images/sardarProfilePic1.jpeg";
+
 
 function NavbarComp() {
   return (
@@ -27,14 +28,14 @@ function NavbarComp() {
           <ul className="navbar-nav  ">
             <li className="nav-item ">
               <img
-                src={NeerajProfilePic}
+                src={sardarProfilePic}
                 width="30"
                 height="40"
                 className="d-inline-block align-top rounded-circle "
                 alt=""
               />
               <a className="nav-link  d-inline-block  text-white " href="#">
-                neeraj
+                k sardar
               </a>
             </li>
             <li className="nav-item ">

@@ -28,7 +28,7 @@ export default function MessageCard({ currentToUser }) {
               <div
                 className="messageCard"
                 style={
-                  contact.fromUser == "neeraj"
+                  contact.fromUser == "k sardar"
                     ? { alignItems: "flex-end" }
                     : { alignItems: "flex-start" }
                 }
